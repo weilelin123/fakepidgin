@@ -1,6 +1,5 @@
-
-const testList1 = ['would you like to eat?', 'no thank you.\'', 'from which high school did you matriculate?'];
-const testList2 = ['Eh brah, would you like to eat?', 'Eh brah, no thank you.', 'Eh brah, from which high school did you matriculate?'];
+const testList1 = ['Eh brah, would you like to eat?'];
+const testList2 = ['Eh brah, no thanks'];
 
 function fakepidgin(list1, list2) {
     const resultList = [];
@@ -11,4 +10,3 @@ function fakepidgin(list1, list2) {
 }
 
 console.log(fakepidgin(testList1, testList2));
-
